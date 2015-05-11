@@ -1,0 +1,42 @@
+{
+  "name": "assemble-middleware-htaccess",
+  "description": ".htaccess Middleware for Assemble",
+  "version": "0.1.0",
+  "homepage": "https://github.com/davidwickman/assemble-middleware-htaccess",
+
+  "repository": {
+  	"type": "git",
+  	"url": "https://github.com/davidwickman/assemble-middleware-htaccess.git"
+  },
+
+  "bugs": {
+  	"url": "https://github.com/davidwickman/assemble-middleware-htaccess/issues"
+  },
+
+  "license": {
+  	"type": "MIT",
+  	"url": "https://github.com/davidwickman/assemble-middleware-htaccess/blob/master/LICENSE-MIT"
+  },
+
+  "engines": {
+  	"node": ">=0.8.0"
+  },
+
+  "main": "./index.js",
+
+  "devDependencies": {
+    "grunt": "~0.4.2",
+    "grunt-contrib-jshint": "~0.7.0",
+    "grunt-readme": "~0.4.0",
+    "grunt-repos": "~0.1.2",
+    "grunt-mocha-test": "~0.8.1",
+    "grunt-contrib-watch": "~0.5.3",
+    "chai": "~1.8.1"
+  },
+
+  "keywords": [
+  	"plugin",
+  	"assemble",
+  	"assemble plugin"
+  ]
+}
